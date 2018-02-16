@@ -3,3 +3,5 @@ build:
     image_name: chaitanyavootla/u14
     image_tag: latest
     pull: true
+  ci:
+    - echo "hello"
