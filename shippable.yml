@@ -1,5 +1,5 @@
 build:
   pre_ci_boot:
-    image_name: drydock/u12pyt:prod
+    image_name: drydock/u12pyt
     image_tag: prod
     pull: true
