@@ -1,10 +1,12 @@
 build:
   pre_ci_boot:
-    image_name: drydock/u16cppall
+    image_name: drydock/u16nodall
     image_tag: master
     pull: true
   ci:
-    - gcc --version
-    - clang --version
-    - node -v
-    - ruby -v
+    - nvm use 4.8.7
+    - nvm use 5.12.0
+    - nvm use 6.11.5
+    - nvm use 7.10.1
+    - nvm use 8.9.4
+    - nvm use 9.5.0
