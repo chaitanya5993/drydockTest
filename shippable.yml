@@ -4,4 +4,5 @@ build:
     image_tag: master
     pull: true
   ci:
-    - echo "hello"
+    - gcc --version
+    - clang --version
