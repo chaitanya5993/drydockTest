@@ -6,3 +6,5 @@ build:
   ci:
     - gcc --version
     - clang --version
+    - node -v
+    - ruby -v
