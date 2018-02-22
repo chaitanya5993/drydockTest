@@ -10,3 +10,4 @@ build:
     - nvm use 7.10.1
     - nvm use 8.9.4
     - nvm use 9.5.0
+    - nvm use 9.4.0
