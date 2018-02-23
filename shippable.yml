@@ -4,4 +4,5 @@ build:
     image_tag: master
     pull: true
   ci:
+    - chmod +x phpall_test.sh
     - sudo ./phpall_test.sh
