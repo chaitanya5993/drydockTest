@@ -1,7 +1,7 @@
 build:
   pre_ci_boot:
-    image_name: chaitanyavootla/u16phpall
-    image_tag: new
+    image_name: drydock/u16phpall
+    image_tag: master
     pull: true
   ci:
     - chmod +x phpall_test.sh
