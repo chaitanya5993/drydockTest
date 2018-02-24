@@ -1,8 +1,9 @@
 build:
   pre_ci_boot:
-    image_name: drydock/u16phpall
-    image_tag: master
+    image_name: chaitanyavootla/c7cppall
+    image_tag: new
     pull: true
   ci:
-    - chmod +x phpall_test.sh
-    - sudo ./phpall_test.sh
+    - gcc --version
+    - g++ --version
+    - clang --version
