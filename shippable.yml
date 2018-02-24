@@ -1,7 +1,7 @@
 build:
   pre_ci_boot:
     image_name: chaitanyavootla/c7cppall
-    image_tag: new2
+    image_tag: master
     pull: true
   ci:
     - gcc --version
