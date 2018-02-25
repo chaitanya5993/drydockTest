@@ -4,4 +4,5 @@ build:
     image_tag: master
     pull: true
   ci:
+    - sudo chmod +x cppTest.sh
     - sudo ./cppTest.sh
