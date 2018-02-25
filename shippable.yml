@@ -6,3 +6,6 @@ build:
   ci:
     - sudo chmod +x cppTest.sh
     - sudo ./cppTest.sh
+    - java -version
+    - node --version
+    - ruby --version
