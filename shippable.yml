@@ -4,6 +4,4 @@ build:
     image_tag: master
     pull: true
   ci:
-    - gcc --version
-    - g++ --version
-    - clang --version
+    - sudo ./cppTest.sh
