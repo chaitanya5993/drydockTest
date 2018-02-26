@@ -1,11 +1,7 @@
 build:
   pre_ci_boot:
-    image_name: drydock/c7cppall
+    image_name: drydock/c7javall
     image_tag: master
     pull: true
   ci:
-    - sudo chmod +x cppTest.sh
-    - sudo ./cppTest.sh
-    - java -version
-    - node --version
-    - ruby --version
+    - shipctl jdk set openjdk8
