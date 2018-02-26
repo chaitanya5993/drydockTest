@@ -4,4 +4,5 @@ build:
     image_tag: master
     pull: true
   ci:
+    - ls -a
     - shipctl jdk set openjdk8
